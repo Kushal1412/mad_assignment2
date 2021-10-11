@@ -1,0 +1,476 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.flutter_fanpage_kk"
+4    android:versionCode="1"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+9        android:targetSdkVersion="30" />
+10    <!--
+11         Flutter needs it to communicate with the running application
+12         to allow setting breakpoints, to provide hot reload, etc.
+13    -->
+14    <uses-permission android:name="android.permission.INTERNET" />
+14-->F:\Masters\Sem1\Mbl App Dev\Homework\flutter_fanpage_kk\android\app\src\main\AndroidManifest.xml:58:7-68
+14-->F:\Masters\Sem1\Mbl App Dev\Homework\flutter_fanpage_kk\android\app\src\main\AndroidManifest.xml:58:24-66
+15    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+15-->[:file_picker] F:\Masters\Sem1\Mbl App Dev\Homework\flutter_fanpage_kk\build\file_picker\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-80
+15-->[:file_picker] F:\Masters\Sem1\Mbl App Dev\Homework\flutter_fanpage_kk\build\file_picker\intermediates\library_manifest\debug\AndroidManifest.xml:7:22-77
+16
+17    <queries>
+17-->[:file_picker] F:\Masters\Sem1\Mbl App Dev\Homework\flutter_fanpage_kk\build\file_picker\intermediates\library_manifest\debug\AndroidManifest.xml:9:5-15:15
+18        <intent>
+18-->[:file_picker] F:\Masters\Sem1\Mbl App Dev\Homework\flutter_fanpage_kk\build\file_picker\intermediates\library_manifest\debug\AndroidManifest.xml:10:9-14:18
+19            <action android:name="android.intent.action.GET_CONTENT" />
+19-->[:file_picker] F:\Masters\Sem1\Mbl App Dev\Homework\flutter_fanpage_kk\build\file_picker\intermediates\library_manifest\debug\AndroidManifest.xml:11:13-72
+19-->[:file_picker] F:\Masters\Sem1\Mbl App Dev\Homework\flutter_fanpage_kk\build\file_picker\intermediates\library_manifest\debug\AndroidManifest.xml:11:21-69
+20
+21            <data android:mimeType="*/*" />
+21-->F:\Masters\Sem1\Mbl App Dev\Homework\flutter_fanpage_kk\android\app\src\main\AndroidManifest.xml:54:13-71
+22        </intent>
+23    </queries>
+24
+25    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+25-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Kush\.gradle\caches\transforms-2\files-2.1\20c92a9eacc34f0af3135437a9ce4824\jetified-firebase-auth-21.0.1\AndroidManifest.xml:24:5-79
+25-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Kush\.gradle\caches\transforms-2\files-2.1\20c92a9eacc34f0af3135437a9ce4824\jetified-firebase-auth-21.0.1\AndroidManifest.xml:24:22-76
+26    <uses-permission android:name="android.permission.WAKE_LOCK" />
+26-->[com.google.android.gms:play-services-measurement-api:19.0.1] C:\Users\Kush\.gradle\caches\transforms-2\files-2.1\71428cc48cdc7c37a120f0fd6ba5393b\jetified-play-services-measurement-api-19.0.1\AndroidManifest.xml:24:5-68
+26-->[com.google.android.gms:play-services-measurement-api:19.0.1] C:\Users\Kush\.gradle\caches\transforms-2\files-2.1\71428cc48cdc7c37a120f0fd6ba5393b\jetified-play-services-measurement-api-19.0.1\AndroidManifest.xml:24:22-65
+27    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+27-->[com.google.android.gms:play-services-measurement:19.0.1] C:\Users\Kush\.gradle\caches\transforms-2\files-2.1\8330784ef1caab2288c9e29b2a5416a8\jetified-play-services-measurement-19.0.1\AndroidManifest.xml:26:5-110
+27-->[com.google.android.gms:play-services-measurement:19.0.1] C:\Users\Kush\.gradle\caches\transforms-2\files-2.1\8330784ef1caab2288c9e29b2a5416a8\jetified-play-services-measurement-19.0.1\AndroidManifest.xml:26:22-107
+28
+29    <application
+29-->F:\Masters\Sem1\Mbl App Dev\Homework\flutter_fanpage_kk\android\app\src\main\AndroidManifest.xml:3:4-57:19
+30        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+30-->[androidx.core:core:1.3.2] C:\Users\Kush\.gradle\caches\transforms-2\files-2.1\834829066602057c413e9ea069694e21\core-1.3.2\AndroidManifest.xml:24:18-86
+31        android:debuggable="true"
+32        android:icon="@mipmap/ic_launcher"
+32-->F:\Masters\Sem1\Mbl App Dev\Homework\flutter_fanpage_kk\android\app\src\main\AndroidManifest.xml:5:9-43
+33        android:label="fanpage_app"
+33-->F:\Masters\Sem1\Mbl App Dev\Homework\flutter_fanpage_kk\android\app\src\main\AndroidManifest.xml:4:9-36
+34        android:supportsRtl="true" >
+34-->[com.facebook.android:facebook-login:11.3.0] C:\Users\Kush\.gradle\caches\transforms-2\files-2.1\f28db895bede35351ad83872598d9b5e\jetified-facebook-login-11.3.0\AndroidManifest.xml:28:18-44
+35        <activity
+35-->F:\Masters\Sem1\Mbl App Dev\Homework\flutter_fanpage_kk\android\app\src\main\AndroidManifest.xml:6:9-34:20
+36            android:name="com.example.fanpage_app.MainActivity"
+36-->F:\Masters\Sem1\Mbl App Dev\Homework\flutter_fanpage_kk\android\app\src\main\AndroidManifest.xml:7:13-41
+37            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+37-->F:\Masters\Sem1\Mbl App Dev\Homework\flutter_fanpage_kk\android\app\src\main\AndroidManifest.xml:10:13-163
+38            android:hardwareAccelerated="true"
+38-->F:\Masters\Sem1\Mbl App Dev\Homework\flutter_fanpage_kk\android\app\src\main\AndroidManifest.xml:11:13-47
+39            android:launchMode="singleTop"
+39-->F:\Masters\Sem1\Mbl App Dev\Homework\flutter_fanpage_kk\android\app\src\main\AndroidManifest.xml:8:13-43
+40            android:theme="@style/LaunchTheme"
+40-->F:\Masters\Sem1\Mbl App Dev\Homework\flutter_fanpage_kk\android\app\src\main\AndroidManifest.xml:9:13-47
+41            android:windowSoftInputMode="adjustResize" >
+41-->F:\Masters\Sem1\Mbl App Dev\Homework\flutter_fanpage_kk\android\app\src\main\AndroidManifest.xml:12:13-55
+42
+43            <!--
+44                 Specifies an Android theme to apply to this Activity as soon as
+45                 the Android process has started. This theme is visible to the user
+46                 while the Flutter UI initializes. After that, this theme continues
+47                 to determine the Window background behind the Flutter UI.
+48            -->
+49            <meta-data
+49-->F:\Masters\Sem1\Mbl App Dev\Homework\flutter_fanpage_kk\android\app\src\main\AndroidManifest.xml:17:13-20:17
+50                android:name="io.flutter.embedding.android.NormalTheme"
+50-->F:\Masters\Sem1\Mbl App Dev\Homework\flutter_fanpage_kk\android\app\src\main\AndroidManifest.xml:18:15-70
+51                android:resource="@style/NormalTheme" />
+51-->F:\Masters\Sem1\Mbl App Dev\Homework\flutter_fanpage_kk\android\app\src\main\AndroidManifest.xml:19:15-52
+52            <!--
+53                 Displays an Android View that continues showing the launch screen
+54                 Drawable until Flutter paints its first frame, then this splash
+55                 screen fades out. A splash screen is useful to avoid any visual
+56                 gap between the end of Android's launch screen and the painting of
+57                 Flutter's first frame.
+58            -->
+59            <meta-data
+59-->F:\Masters\Sem1\Mbl App Dev\Homework\flutter_fanpage_kk\android\app\src\main\AndroidManifest.xml:26:13-29:17
+60                android:name="io.flutter.embedding.android.SplashScreenDrawable"
+60-->F:\Masters\Sem1\Mbl App Dev\Homework\flutter_fanpage_kk\android\app\src\main\AndroidManifest.xml:27:15-79
+61                android:resource="@drawable/launch_background" />
+61-->F:\Masters\Sem1\Mbl App Dev\Homework\flutter_fanpage_kk\android\app\src\main\AndroidManifest.xml:28:15-61
+62
+63            <intent-filter>
+63-->F:\Masters\Sem1\Mbl App Dev\Homework\flutter_fanpage_kk\android\app\src\main\AndroidManifest.xml:30:13-33:29
+64                <action android:name="android.intent.action.MAIN" />
+64-->F:\Masters\Sem1\Mbl App Dev\Homework\flutter_fanpage_kk\android\app\src\main\AndroidManifest.xml:31:17-68
+64-->F:\Masters\Sem1\Mbl App Dev\Homework\flutter_fanpage_kk\android\app\src\main\AndroidManifest.xml:31:25-66
+65
+66                <category android:name="android.intent.category.LAUNCHER" />
+66-->F:\Masters\Sem1\Mbl App Dev\Homework\flutter_fanpage_kk\android\app\src\main\AndroidManifest.xml:32:17-76
+66-->F:\Masters\Sem1\Mbl App Dev\Homework\flutter_fanpage_kk\android\app\src\main\AndroidManifest.xml:32:27-74
+67            </intent-filter>
+68        </activity>
+69        <!--
+70             Don't delete the meta-data below.
+71             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+72        -->
+73        <meta-data
+73-->F:\Masters\Sem1\Mbl App Dev\Homework\flutter_fanpage_kk\android\app\src\main\AndroidManifest.xml:37:9-39:33
+74            android:name="flutterEmbedding"
+74-->F:\Masters\Sem1\Mbl App Dev\Homework\flutter_fanpage_kk\android\app\src\main\AndroidManifest.xml:38:13-44
+75            android:value="2" />
+75-->F:\Masters\Sem1\Mbl App Dev\Homework\flutter_fanpage_kk\android\app\src\main\AndroidManifest.xml:39:13-30
+76        <meta-data
+76-->F:\Masters\Sem1\Mbl App Dev\Homework\flutter_fanpage_kk\android\app\src\main\AndroidManifest.xml:40:13-41:50
+77            android:name="com.facebook.sdk.ApplicationId"
+77-->F:\Masters\Sem1\Mbl App Dev\Homework\flutter_fanpage_kk\android\app\src\main\AndroidManifest.xml:40:24-69
+78            android:value="@string/facebook_app_id" />
+78-->F:\Masters\Sem1\Mbl App Dev\Homework\flutter_fanpage_kk\android\app\src\main\AndroidManifest.xml:41:9-48
+79
+80        <activity
+80-->F:\Masters\Sem1\Mbl App Dev\Homework\flutter_fanpage_kk\android\app\src\main\AndroidManifest.xml:43:5-46:44
+81            android:name="com.facebook.FacebookActivity"
+81-->F:\Masters\Sem1\Mbl App Dev\Homework\flutter_fanpage_kk\android\app\src\main\AndroidManifest.xml:43:15-59
+82            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+82-->F:\Masters\Sem1\Mbl App Dev\Homework\flutter_fanpage_kk\android\app\src\main\AndroidManifest.xml:44:9-109
+83            android:label="@string/app_name"
+83-->F:\Masters\Sem1\Mbl App Dev\Homework\flutter_fanpage_kk\android\app\src\main\AndroidManifest.xml:46:9-41
+84            android:theme="@style/com_facebook_activity_theme" />
+84-->[com.facebook.android:facebook-common:11.3.0] C:\Users\Kush\.gradle\caches\transforms-2\files-2.1\59f020ee3f7bbb1c987c79c31c007970\jetified-facebook-common-11.3.0\AndroidManifest.xml:33:13-63
+85        <activity
+85-->F:\Masters\Sem1\Mbl App Dev\Homework\flutter_fanpage_kk\android\app\src\main\AndroidManifest.xml:47:5-56:16
+86            android:name="com.facebook.CustomTabActivity"
+86-->F:\Masters\Sem1\Mbl App Dev\Homework\flutter_fanpage_kk\android\app\src\main\AndroidManifest.xml:48:9-54
+87            android:exported="true" >
+87-->F:\Masters\Sem1\Mbl App Dev\Homework\flutter_fanpage_kk\android\app\src\main\AndroidManifest.xml:49:9-32
+88            <intent-filter>
+88-->F:\Masters\Sem1\Mbl App Dev\Homework\flutter_fanpage_kk\android\app\src\main\AndroidManifest.xml:50:9-55:25
+89                <action android:name="android.intent.action.VIEW" />
+89-->F:\Masters\Sem1\Mbl App Dev\Homework\flutter_fanpage_kk\android\app\src\main\AndroidManifest.xml:51:13-65
+89-->F:\Masters\Sem1\Mbl App Dev\Homework\flutter_fanpage_kk\android\app\src\main\AndroidManifest.xml:51:21-62
+90
+91                <category android:name="android.intent.category.DEFAULT" />
+91-->F:\Masters\Sem1\Mbl App Dev\Homework\flutter_fanpage_kk\android\app\src\main\AndroidManifest.xml:52:13-72
+91-->F:\Masters\Sem1\Mbl App Dev\Homework\flutter_fanpage_kk\android\app\src\main\AndroidManifest.xml:52:23-69
+92                <category android:name="android.intent.category.BROWSABLE" />
+92-->F:\Masters\Sem1\Mbl App Dev\Homework\flutter_fanpage_kk\android\app\src\main\AndroidManifest.xml:53:13-74
+92-->F:\Masters\Sem1\Mbl App Dev\Homework\flutter_fanpage_kk\android\app\src\main\AndroidManifest.xml:53:23-71
+93
+94                <data android:scheme="@string/fb_login_protocol_scheme" />
+94-->F:\Masters\Sem1\Mbl App Dev\Homework\flutter_fanpage_kk\android\app\src\main\AndroidManifest.xml:54:13-71
+94-->F:\Masters\Sem1\Mbl App Dev\Homework\flutter_fanpage_kk\android\app\src\main\AndroidManifest.xml:54:19-68
+95            </intent-filter>
+96            <intent-filter>
+96-->[com.facebook.android:facebook-common:11.3.0] C:\Users\Kush\.gradle\caches\transforms-2\files-2.1\59f020ee3f7bbb1c987c79c31c007970\jetified-facebook-common-11.3.0\AndroidManifest.xml:39:13-48:29
+97                <action android:name="android.intent.action.VIEW" />
+97-->F:\Masters\Sem1\Mbl App Dev\Homework\flutter_fanpage_kk\android\app\src\main\AndroidManifest.xml:51:13-65
+97-->F:\Masters\Sem1\Mbl App Dev\Homework\flutter_fanpage_kk\android\app\src\main\AndroidManifest.xml:51:21-62
+98
+99                <category android:name="android.intent.category.DEFAULT" />
+99-->F:\Masters\Sem1\Mbl App Dev\Homework\flutter_fanpage_kk\android\app\src\main\AndroidManifest.xml:52:13-72
+99-->F:\Masters\Sem1\Mbl App Dev\Homework\flutter_fanpage_kk\android\app\src\main\AndroidManifest.xml:52:23-69
+100                <category android:name="android.intent.category.BROWSABLE" />
+100-->F:\Masters\Sem1\Mbl App Dev\Homework\flutter_fanpage_kk\android\app\src\main\AndroidManifest.xml:53:13-74
+100-->F:\Masters\Sem1\Mbl App Dev\Homework\flutter_fanpage_kk\android\app\src\main\AndroidManifest.xml:53:23-71
+101
+102                <data
+102-->F:\Masters\Sem1\Mbl App Dev\Homework\flutter_fanpage_kk\android\app\src\main\AndroidManifest.xml:54:13-71
+103                    android:host="cct.com.example.flutter_fanpage_kk"
+104                    android:scheme="fbconnect" />
+104-->F:\Masters\Sem1\Mbl App Dev\Homework\flutter_fanpage_kk\android\app\src\main\AndroidManifest.xml:54:19-68
+105            </intent-filter>
+106        </activity>
+107
+108        <service
+108-->[:firebase_auth] F:\Masters\Sem1\Mbl App Dev\Homework\flutter_fanpage_kk\build\firebase_auth\intermediates\library_manifest\debug\AndroidManifest.xml:8:9-12:19
+109            android:name="com.google.firebase.components.ComponentDiscoveryService"
+109-->[:firebase_auth] F:\Masters\Sem1\Mbl App Dev\Homework\flutter_fanpage_kk\build\firebase_auth\intermediates\library_manifest\debug\AndroidManifest.xml:8:18-89
+110            android:directBootAware="true"
+110-->[com.google.firebase:firebase-common:20.0.0] C:\Users\Kush\.gradle\caches\transforms-2\files-2.1\d743e2f135b4b07104c7861c96109c08\jetified-firebase-common-20.0.0\AndroidManifest.xml:35:13-43
+111            android:exported="false" >
+111-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Kush\.gradle\caches\transforms-2\files-2.1\20c92a9eacc34f0af3135437a9ce4824\jetified-firebase-auth-21.0.1\AndroidManifest.xml:76:13-37
+112            <meta-data
+112-->[:firebase_auth] F:\Masters\Sem1\Mbl App Dev\Homework\flutter_fanpage_kk\build\firebase_auth\intermediates\library_manifest\debug\AndroidManifest.xml:9:13-11:85
+113                android:name="com.google.firebase.components:io.flutter.plugins.firebase.auth.FlutterFirebaseAuthRegistrar"
+113-->[:firebase_auth] F:\Masters\Sem1\Mbl App Dev\Homework\flutter_fanpage_kk\build\firebase_auth\intermediates\library_manifest\debug\AndroidManifest.xml:10:17-124
+114                android:value="com.google.firebase.components.ComponentRegistrar" />
+114-->[:firebase_auth] F:\Masters\Sem1\Mbl App Dev\Homework\flutter_fanpage_kk\build\firebase_auth\intermediates\library_manifest\debug\AndroidManifest.xml:11:17-82
+115            <meta-data
+115-->[:firebase_storage] F:\Masters\Sem1\Mbl App Dev\Homework\flutter_fanpage_kk\build\firebase_storage\intermediates\library_manifest\debug\AndroidManifest.xml:9:13-11:85
+116                android:name="com.google.firebase.components:io.flutter.plugins.firebase.storage.FlutterFirebaseAppRegistrar"
+116-->[:firebase_storage] F:\Masters\Sem1\Mbl App Dev\Homework\flutter_fanpage_kk\build\firebase_storage\intermediates\library_manifest\debug\AndroidManifest.xml:10:17-126
+117                android:value="com.google.firebase.components.ComponentRegistrar" />
+117-->[:firebase_storage] F:\Masters\Sem1\Mbl App Dev\Homework\flutter_fanpage_kk\build\firebase_storage\intermediates\library_manifest\debug\AndroidManifest.xml:11:17-82
+118            <meta-data
+118-->[:cloud_firestore] F:\Masters\Sem1\Mbl App Dev\Homework\flutter_fanpage_kk\build\cloud_firestore\intermediates\library_manifest\debug\AndroidManifest.xml:9:13-11:85
+119                android:name="com.google.firebase.components:io.flutter.plugins.firebase.firestore.FlutterFirebaseFirestoreRegistrar"
+119-->[:cloud_firestore] F:\Masters\Sem1\Mbl App Dev\Homework\flutter_fanpage_kk\build\cloud_firestore\intermediates\library_manifest\debug\AndroidManifest.xml:10:17-134
+120                android:value="com.google.firebase.components.ComponentRegistrar" />
+120-->[:cloud_firestore] F:\Masters\Sem1\Mbl App Dev\Homework\flutter_fanpage_kk\build\cloud_firestore\intermediates\library_manifest\debug\AndroidManifest.xml:11:17-82
+121            <meta-data
+121-->[:firebase_core] F:\Masters\Sem1\Mbl App Dev\Homework\flutter_fanpage_kk\build\firebase_core\intermediates\library_manifest\debug\AndroidManifest.xml:9:13-11:85
+122                android:name="com.google.firebase.components:io.flutter.plugins.firebase.core.FlutterFirebaseCoreRegistrar"
+122-->[:firebase_core] F:\Masters\Sem1\Mbl App Dev\Homework\flutter_fanpage_kk\build\firebase_core\intermediates\library_manifest\debug\AndroidManifest.xml:10:17-124
+123                android:value="com.google.firebase.components.ComponentRegistrar" />
+123-->[:firebase_core] F:\Masters\Sem1\Mbl App Dev\Homework\flutter_fanpage_kk\build\firebase_core\intermediates\library_manifest\debug\AndroidManifest.xml:11:17-82
+124            <meta-data
+124-->[:firebase_dynamic_links] F:\Masters\Sem1\Mbl App Dev\Homework\flutter_fanpage_kk\build\firebase_dynamic_links\intermediates\library_manifest\debug\AndroidManifest.xml:11:13-13:85
+125                android:name="com.google.firebase.components:io.flutter.plugins.firebasedynamiclinks.FlutterFirebaseAppRegistrar"
+125-->[:firebase_dynamic_links] F:\Masters\Sem1\Mbl App Dev\Homework\flutter_fanpage_kk\build\firebase_dynamic_links\intermediates\library_manifest\debug\AndroidManifest.xml:12:17-130
+126                android:value="com.google.firebase.components.ComponentRegistrar" />
+126-->[:firebase_dynamic_links] F:\Masters\Sem1\Mbl App Dev\Homework\flutter_fanpage_kk\build\firebase_dynamic_links\intermediates\library_manifest\debug\AndroidManifest.xml:13:17-82
+127            <meta-data
+127-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Kush\.gradle\caches\transforms-2\files-2.1\20c92a9eacc34f0af3135437a9ce4824\jetified-firebase-auth-21.0.1\AndroidManifest.xml:77:13-79:85
+128                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+128-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Kush\.gradle\caches\transforms-2\files-2.1\20c92a9eacc34f0af3135437a9ce4824\jetified-firebase-auth-21.0.1\AndroidManifest.xml:78:17-109
+129                android:value="com.google.firebase.components.ComponentRegistrar" />
+129-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Kush\.gradle\caches\transforms-2\files-2.1\20c92a9eacc34f0af3135437a9ce4824\jetified-firebase-auth-21.0.1\AndroidManifest.xml:79:17-82
+130            <meta-data
+130-->[com.google.firebase:firebase-firestore:23.0.3] C:\Users\Kush\.gradle\caches\transforms-2\files-2.1\2562ea70dfdfec13b3abf39f278c87f6\jetified-firebase-firestore-23.0.3\AndroidManifest.xml:20:13-22:85
+131                android:name="com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar"
+131-->[com.google.firebase:firebase-firestore:23.0.3] C:\Users\Kush\.gradle\caches\transforms-2\files-2.1\2562ea70dfdfec13b3abf39f278c87f6\jetified-firebase-firestore-23.0.3\AndroidManifest.xml:21:17-111
+132                android:value="com.google.firebase.components.ComponentRegistrar" />
+132-->[com.google.firebase:firebase-firestore:23.0.3] C:\Users\Kush\.gradle\caches\transforms-2\files-2.1\2562ea70dfdfec13b3abf39f278c87f6\jetified-firebase-firestore-23.0.3\AndroidManifest.xml:22:17-82
+133            <meta-data
+133-->[com.google.firebase:firebase-dynamic-links:20.1.1] C:\Users\Kush\.gradle\caches\transforms-2\files-2.1\a1dfae391282def0c3435343de5f8d07\jetified-firebase-dynamic-links-20.1.1\AndroidManifest.xml:27:13-29:85
+134                android:name="com.google.firebase.components:com.google.firebase.dynamiclinks.internal.FirebaseDynamicLinkRegistrar"
+134-->[com.google.firebase:firebase-dynamic-links:20.1.1] C:\Users\Kush\.gradle\caches\transforms-2\files-2.1\a1dfae391282def0c3435343de5f8d07\jetified-firebase-dynamic-links-20.1.1\AndroidManifest.xml:28:17-133
+135                android:value="com.google.firebase.components.ComponentRegistrar" />
+135-->[com.google.firebase:firebase-dynamic-links:20.1.1] C:\Users\Kush\.gradle\caches\transforms-2\files-2.1\a1dfae391282def0c3435343de5f8d07\jetified-firebase-dynamic-links-20.1.1\AndroidManifest.xml:29:17-82
+136            <meta-data
+136-->[com.google.firebase:firebase-storage:20.0.0] C:\Users\Kush\.gradle\caches\transforms-2\files-2.1\a04ffd1262eaa4dc3e604ad51b756273\jetified-firebase-storage-20.0.0\AndroidManifest.xml:33:13-35:85
+137                android:name="com.google.firebase.components:com.google.firebase.storage.StorageRegistrar"
+137-->[com.google.firebase:firebase-storage:20.0.0] C:\Users\Kush\.gradle\caches\transforms-2\files-2.1\a04ffd1262eaa4dc3e604ad51b756273\jetified-firebase-storage-20.0.0\AndroidManifest.xml:34:17-107
+138                android:value="com.google.firebase.components.ComponentRegistrar" />
+138-->[com.google.firebase:firebase-storage:20.0.0] C:\Users\Kush\.gradle\caches\transforms-2\files-2.1\a04ffd1262eaa4dc3e604ad51b756273\jetified-firebase-storage-20.0.0\AndroidManifest.xml:35:17-82
+139            <meta-data
+139-->[com.google.android.gms:play-services-measurement-api:19.0.1] C:\Users\Kush\.gradle\caches\transforms-2\files-2.1\71428cc48cdc7c37a120f0fd6ba5393b\jetified-play-services-measurement-api-19.0.1\AndroidManifest.xml:30:13-32:85
+140                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+140-->[com.google.android.gms:play-services-measurement-api:19.0.1] C:\Users\Kush\.gradle\caches\transforms-2\files-2.1\71428cc48cdc7c37a120f0fd6ba5393b\jetified-play-services-measurement-api-19.0.1\AndroidManifest.xml:31:17-139
+141                android:value="com.google.firebase.components.ComponentRegistrar" />
+141-->[com.google.android.gms:play-services-measurement-api:19.0.1] C:\Users\Kush\.gradle\caches\transforms-2\files-2.1\71428cc48cdc7c37a120f0fd6ba5393b\jetified-play-services-measurement-api-19.0.1\AndroidManifest.xml:32:17-82
+142            <meta-data
+142-->[com.google.firebase:firebase-installations:17.0.0] C:\Users\Kush\.gradle\caches\transforms-2\files-2.1\26ef4bb110b83fd88e96e0e6f6c09f01\jetified-firebase-installations-17.0.0\AndroidManifest.xml:18:13-20:85
+143                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+143-->[com.google.firebase:firebase-installations:17.0.0] C:\Users\Kush\.gradle\caches\transforms-2\files-2.1\26ef4bb110b83fd88e96e0e6f6c09f01\jetified-firebase-installations-17.0.0\AndroidManifest.xml:19:17-127
+144                android:value="com.google.firebase.components.ComponentRegistrar" />
+144-->[com.google.firebase:firebase-installations:17.0.0] C:\Users\Kush\.gradle\caches\transforms-2\files-2.1\26ef4bb110b83fd88e96e0e6f6c09f01\jetified-firebase-installations-17.0.0\AndroidManifest.xml:20:17-82
+145        </service>
+146
+147        <provider
+147-->[:image_picker] F:\Masters\Sem1\Mbl App Dev\Homework\flutter_fanpage_kk\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:8:9-16:20
+148            android:name="io.flutter.plugins.imagepicker.ImagePickerFileProvider"
+148-->[:image_picker] F:\Masters\Sem1\Mbl App Dev\Homework\flutter_fanpage_kk\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:9:13-82
+149            android:authorities="com.example.flutter_fanpage_kk.flutter.image_provider"
+149-->[:image_picker] F:\Masters\Sem1\Mbl App Dev\Homework\flutter_fanpage_kk\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:10:13-74
+150            android:exported="false"
+150-->[:image_picker] F:\Masters\Sem1\Mbl App Dev\Homework\flutter_fanpage_kk\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:11:13-37
+151            android:grantUriPermissions="true" >
+151-->[:image_picker] F:\Masters\Sem1\Mbl App Dev\Homework\flutter_fanpage_kk\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:12:13-47
+152            <meta-data
+152-->[:image_picker] F:\Masters\Sem1\Mbl App Dev\Homework\flutter_fanpage_kk\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:13:13-15:75
+153                android:name="android.support.FILE_PROVIDER_PATHS"
+153-->[:image_picker] F:\Masters\Sem1\Mbl App Dev\Homework\flutter_fanpage_kk\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:14:17-67
+154                android:resource="@xml/flutter_image_picker_file_paths" />
+154-->[:image_picker] F:\Masters\Sem1\Mbl App Dev\Homework\flutter_fanpage_kk\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:15:17-72
+155        </provider>
+156
+157        <activity android:name="com.facebook.CustomTabMainActivity" />
+157-->[com.facebook.android:facebook-common:11.3.0] C:\Users\Kush\.gradle\caches\transforms-2\files-2.1\59f020ee3f7bbb1c987c79c31c007970\jetified-facebook-common-11.3.0\AndroidManifest.xml:34:9-71
+157-->[com.facebook.android:facebook-common:11.3.0] C:\Users\Kush\.gradle\caches\transforms-2\files-2.1\59f020ee3f7bbb1c987c79c31c007970\jetified-facebook-common-11.3.0\AndroidManifest.xml:34:19-68
+158        <!--
+159         The initialization ContentProvider will call FacebookSdk.sdkInitialize automatically
+160         with the application context. This config is merged in with the host app's manifest,
+161         but there can only be one provider with the same authority activated at any given
+162         point; so if the end user has two or more different apps that use Facebook SDK, only the
+163         first one will be able to use the provider. To work around this problem, we use the
+164         following placeholder in the authority to identify each host application as if it was
+165         a completely different provider.
+166        -->
+167        <provider
+167-->[com.facebook.android:facebook-core:11.3.0] C:\Users\Kush\.gradle\caches\transforms-2\files-2.1\c9e0c5d64073c0ea8931194f06cbe0a8\jetified-facebook-core-11.3.0\AndroidManifest.xml:39:9-42:40
+168            android:name="com.facebook.internal.FacebookInitProvider"
+168-->[com.facebook.android:facebook-core:11.3.0] C:\Users\Kush\.gradle\caches\transforms-2\files-2.1\c9e0c5d64073c0ea8931194f06cbe0a8\jetified-facebook-core-11.3.0\AndroidManifest.xml:40:13-70
+169            android:authorities="com.example.flutter_fanpage_kk.FacebookInitProvider"
+169-->[com.facebook.android:facebook-core:11.3.0] C:\Users\Kush\.gradle\caches\transforms-2\files-2.1\c9e0c5d64073c0ea8931194f06cbe0a8\jetified-facebook-core-11.3.0\AndroidManifest.xml:41:13-72
+170            android:exported="false" />
+170-->[com.facebook.android:facebook-core:11.3.0] C:\Users\Kush\.gradle\caches\transforms-2\files-2.1\c9e0c5d64073c0ea8931194f06cbe0a8\jetified-facebook-core-11.3.0\AndroidManifest.xml:42:13-37
+171
+172        <receiver
+172-->[com.facebook.android:facebook-core:11.3.0] C:\Users\Kush\.gradle\caches\transforms-2\files-2.1\c9e0c5d64073c0ea8931194f06cbe0a8\jetified-facebook-core-11.3.0\AndroidManifest.xml:44:9-50:20
+173            android:name="com.facebook.CurrentAccessTokenExpirationBroadcastReceiver"
+173-->[com.facebook.android:facebook-core:11.3.0] C:\Users\Kush\.gradle\caches\transforms-2\files-2.1\c9e0c5d64073c0ea8931194f06cbe0a8\jetified-facebook-core-11.3.0\AndroidManifest.xml:45:13-86
+174            android:exported="false" >
+174-->[com.facebook.android:facebook-core:11.3.0] C:\Users\Kush\.gradle\caches\transforms-2\files-2.1\c9e0c5d64073c0ea8931194f06cbe0a8\jetified-facebook-core-11.3.0\AndroidManifest.xml:46:13-37
+175            <intent-filter>
+175-->[com.facebook.android:facebook-core:11.3.0] C:\Users\Kush\.gradle\caches\transforms-2\files-2.1\c9e0c5d64073c0ea8931194f06cbe0a8\jetified-facebook-core-11.3.0\AndroidManifest.xml:47:13-49:29
+176                <action android:name="com.facebook.sdk.ACTION_CURRENT_ACCESS_TOKEN_CHANGED" />
+176-->[com.facebook.android:facebook-core:11.3.0] C:\Users\Kush\.gradle\caches\transforms-2\files-2.1\c9e0c5d64073c0ea8931194f06cbe0a8\jetified-facebook-core-11.3.0\AndroidManifest.xml:48:17-95
+176-->[com.facebook.android:facebook-core:11.3.0] C:\Users\Kush\.gradle\caches\transforms-2\files-2.1\c9e0c5d64073c0ea8931194f06cbe0a8\jetified-facebook-core-11.3.0\AndroidManifest.xml:48:25-92
+177            </intent-filter>
+178        </receiver>
+179
+180        <activity
+180-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Kush\.gradle\caches\transforms-2\files-2.1\20c92a9eacc34f0af3135437a9ce4824\jetified-firebase-auth-21.0.1\AndroidManifest.xml:27:9-44:20
+181            android:name="com.google.firebase.auth.internal.GenericIdpActivity"
+181-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Kush\.gradle\caches\transforms-2\files-2.1\20c92a9eacc34f0af3135437a9ce4824\jetified-firebase-auth-21.0.1\AndroidManifest.xml:28:13-80
+182            android:excludeFromRecents="true"
+182-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Kush\.gradle\caches\transforms-2\files-2.1\20c92a9eacc34f0af3135437a9ce4824\jetified-firebase-auth-21.0.1\AndroidManifest.xml:29:13-46
+183            android:exported="true"
+183-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Kush\.gradle\caches\transforms-2\files-2.1\20c92a9eacc34f0af3135437a9ce4824\jetified-firebase-auth-21.0.1\AndroidManifest.xml:30:13-36
+184            android:launchMode="singleTask"
+184-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Kush\.gradle\caches\transforms-2\files-2.1\20c92a9eacc34f0af3135437a9ce4824\jetified-firebase-auth-21.0.1\AndroidManifest.xml:31:13-44
+185            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+185-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Kush\.gradle\caches\transforms-2\files-2.1\20c92a9eacc34f0af3135437a9ce4824\jetified-firebase-auth-21.0.1\AndroidManifest.xml:32:13-72
+186            <intent-filter>
+186-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Kush\.gradle\caches\transforms-2\files-2.1\20c92a9eacc34f0af3135437a9ce4824\jetified-firebase-auth-21.0.1\AndroidManifest.xml:33:13-43:29
+187                <action android:name="android.intent.action.VIEW" />
+187-->F:\Masters\Sem1\Mbl App Dev\Homework\flutter_fanpage_kk\android\app\src\main\AndroidManifest.xml:51:13-65
+187-->F:\Masters\Sem1\Mbl App Dev\Homework\flutter_fanpage_kk\android\app\src\main\AndroidManifest.xml:51:21-62
+188
+189                <category android:name="android.intent.category.DEFAULT" />
+189-->F:\Masters\Sem1\Mbl App Dev\Homework\flutter_fanpage_kk\android\app\src\main\AndroidManifest.xml:52:13-72
+189-->F:\Masters\Sem1\Mbl App Dev\Homework\flutter_fanpage_kk\android\app\src\main\AndroidManifest.xml:52:23-69
+190                <category android:name="android.intent.category.BROWSABLE" />
+190-->F:\Masters\Sem1\Mbl App Dev\Homework\flutter_fanpage_kk\android\app\src\main\AndroidManifest.xml:53:13-74
+190-->F:\Masters\Sem1\Mbl App Dev\Homework\flutter_fanpage_kk\android\app\src\main\AndroidManifest.xml:53:23-71
+191
+192                <data
+192-->F:\Masters\Sem1\Mbl App Dev\Homework\flutter_fanpage_kk\android\app\src\main\AndroidManifest.xml:54:13-71
+193                    android:host="firebase.auth"
+194                    android:path="/"
+195                    android:scheme="genericidp" />
+195-->F:\Masters\Sem1\Mbl App Dev\Homework\flutter_fanpage_kk\android\app\src\main\AndroidManifest.xml:54:19-68
+196            </intent-filter>
+197        </activity>
+198        <activity
+198-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Kush\.gradle\caches\transforms-2\files-2.1\20c92a9eacc34f0af3135437a9ce4824\jetified-firebase-auth-21.0.1\AndroidManifest.xml:45:9-62:20
+199            android:name="com.google.firebase.auth.internal.RecaptchaActivity"
+199-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Kush\.gradle\caches\transforms-2\files-2.1\20c92a9eacc34f0af3135437a9ce4824\jetified-firebase-auth-21.0.1\AndroidManifest.xml:46:13-79
+200            android:excludeFromRecents="true"
+200-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Kush\.gradle\caches\transforms-2\files-2.1\20c92a9eacc34f0af3135437a9ce4824\jetified-firebase-auth-21.0.1\AndroidManifest.xml:47:13-46
+201            android:exported="true"
+201-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Kush\.gradle\caches\transforms-2\files-2.1\20c92a9eacc34f0af3135437a9ce4824\jetified-firebase-auth-21.0.1\AndroidManifest.xml:48:13-36
+202            android:launchMode="singleTask"
+202-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Kush\.gradle\caches\transforms-2\files-2.1\20c92a9eacc34f0af3135437a9ce4824\jetified-firebase-auth-21.0.1\AndroidManifest.xml:49:13-44
+203            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+203-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Kush\.gradle\caches\transforms-2\files-2.1\20c92a9eacc34f0af3135437a9ce4824\jetified-firebase-auth-21.0.1\AndroidManifest.xml:50:13-72
+204            <intent-filter>
+204-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Kush\.gradle\caches\transforms-2\files-2.1\20c92a9eacc34f0af3135437a9ce4824\jetified-firebase-auth-21.0.1\AndroidManifest.xml:51:13-61:29
+205                <action android:name="android.intent.action.VIEW" />
+205-->F:\Masters\Sem1\Mbl App Dev\Homework\flutter_fanpage_kk\android\app\src\main\AndroidManifest.xml:51:13-65
+205-->F:\Masters\Sem1\Mbl App Dev\Homework\flutter_fanpage_kk\android\app\src\main\AndroidManifest.xml:51:21-62
+206
+207                <category android:name="android.intent.category.DEFAULT" />
+207-->F:\Masters\Sem1\Mbl App Dev\Homework\flutter_fanpage_kk\android\app\src\main\AndroidManifest.xml:52:13-72
+207-->F:\Masters\Sem1\Mbl App Dev\Homework\flutter_fanpage_kk\android\app\src\main\AndroidManifest.xml:52:23-69
+208                <category android:name="android.intent.category.BROWSABLE" />
+208-->F:\Masters\Sem1\Mbl App Dev\Homework\flutter_fanpage_kk\android\app\src\main\AndroidManifest.xml:53:13-74
+208-->F:\Masters\Sem1\Mbl App Dev\Homework\flutter_fanpage_kk\android\app\src\main\AndroidManifest.xml:53:23-71
+209
+210                <data
+210-->F:\Masters\Sem1\Mbl App Dev\Homework\flutter_fanpage_kk\android\app\src\main\AndroidManifest.xml:54:13-71
+211                    android:host="firebase.auth"
+212                    android:path="/"
+213                    android:scheme="recaptcha" />
+213-->F:\Masters\Sem1\Mbl App Dev\Homework\flutter_fanpage_kk\android\app\src\main\AndroidManifest.xml:54:19-68
+214            </intent-filter>
+215        </activity>
+216
+217        <service
+217-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Kush\.gradle\caches\transforms-2\files-2.1\20c92a9eacc34f0af3135437a9ce4824\jetified-firebase-auth-21.0.1\AndroidManifest.xml:64:9-73:19
+218            android:name="com.google.firebase.auth.api.fallback.service.FirebaseAuthFallbackService"
+218-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Kush\.gradle\caches\transforms-2\files-2.1\20c92a9eacc34f0af3135437a9ce4824\jetified-firebase-auth-21.0.1\AndroidManifest.xml:65:13-101
+219            android:enabled="true"
+219-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Kush\.gradle\caches\transforms-2\files-2.1\20c92a9eacc34f0af3135437a9ce4824\jetified-firebase-auth-21.0.1\AndroidManifest.xml:66:13-35
+220            android:exported="false" >
+220-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Kush\.gradle\caches\transforms-2\files-2.1\20c92a9eacc34f0af3135437a9ce4824\jetified-firebase-auth-21.0.1\AndroidManifest.xml:67:13-37
+221            <intent-filter>
+221-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Kush\.gradle\caches\transforms-2\files-2.1\20c92a9eacc34f0af3135437a9ce4824\jetified-firebase-auth-21.0.1\AndroidManifest.xml:68:13-72:29
+222                <action android:name="com.google.firebase.auth.api.gms.service.START" />
+222-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Kush\.gradle\caches\transforms-2\files-2.1\20c92a9eacc34f0af3135437a9ce4824\jetified-firebase-auth-21.0.1\AndroidManifest.xml:69:17-89
+222-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Kush\.gradle\caches\transforms-2\files-2.1\20c92a9eacc34f0af3135437a9ce4824\jetified-firebase-auth-21.0.1\AndroidManifest.xml:69:25-86
+223
+224                <category android:name="android.intent.category.DEFAULT" />
+224-->F:\Masters\Sem1\Mbl App Dev\Homework\flutter_fanpage_kk\android\app\src\main\AndroidManifest.xml:52:13-72
+224-->F:\Masters\Sem1\Mbl App Dev\Homework\flutter_fanpage_kk\android\app\src\main\AndroidManifest.xml:52:23-69
+225            </intent-filter>
+226        </service>
+227
+228        <provider
+228-->[com.google.firebase:firebase-common:20.0.0] C:\Users\Kush\.gradle\caches\transforms-2\files-2.1\d743e2f135b4b07104c7861c96109c08\jetified-firebase-common-20.0.0\AndroidManifest.xml:26:9-31:39
+229            android:name="com.google.firebase.provider.FirebaseInitProvider"
+229-->[com.google.firebase:firebase-common:20.0.0] C:\Users\Kush\.gradle\caches\transforms-2\files-2.1\d743e2f135b4b07104c7861c96109c08\jetified-firebase-common-20.0.0\AndroidManifest.xml:27:13-77
+230            android:authorities="com.example.flutter_fanpage_kk.firebaseinitprovider"
+230-->[com.google.firebase:firebase-common:20.0.0] C:\Users\Kush\.gradle\caches\transforms-2\files-2.1\d743e2f135b4b07104c7861c96109c08\jetified-firebase-common-20.0.0\AndroidManifest.xml:28:13-72
+231            android:directBootAware="true"
+231-->[com.google.firebase:firebase-common:20.0.0] C:\Users\Kush\.gradle\caches\transforms-2\files-2.1\d743e2f135b4b07104c7861c96109c08\jetified-firebase-common-20.0.0\AndroidManifest.xml:29:13-43
+232            android:exported="false"
+232-->[com.google.firebase:firebase-common:20.0.0] C:\Users\Kush\.gradle\caches\transforms-2\files-2.1\d743e2f135b4b07104c7861c96109c08\jetified-firebase-common-20.0.0\AndroidManifest.xml:30:13-37
+233            android:initOrder="100" />
+233-->[com.google.firebase:firebase-common:20.0.0] C:\Users\Kush\.gradle\caches\transforms-2\files-2.1\d743e2f135b4b07104c7861c96109c08\jetified-firebase-common-20.0.0\AndroidManifest.xml:31:13-36
+234
+235        <activity
+235-->[com.google.android.gms:play-services-auth:16.0.1] C:\Users\Kush\.gradle\caches\transforms-2\files-2.1\ec217481dfde0ec7eab4e08b650d1c76\jetified-play-services-auth-16.0.1\AndroidManifest.xml:23:9-27:75
+236            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+236-->[com.google.android.gms:play-services-auth:16.0.1] C:\Users\Kush\.gradle\caches\transforms-2\files-2.1\ec217481dfde0ec7eab4e08b650d1c76\jetified-play-services-auth-16.0.1\AndroidManifest.xml:24:13-93
+237            android:excludeFromRecents="true"
+237-->[com.google.android.gms:play-services-auth:16.0.1] C:\Users\Kush\.gradle\caches\transforms-2\files-2.1\ec217481dfde0ec7eab4e08b650d1c76\jetified-play-services-auth-16.0.1\AndroidManifest.xml:25:13-46
+238            android:exported="false"
+238-->[com.google.android.gms:play-services-auth:16.0.1] C:\Users\Kush\.gradle\caches\transforms-2\files-2.1\ec217481dfde0ec7eab4e08b650d1c76\jetified-play-services-auth-16.0.1\AndroidManifest.xml:26:13-37
+239            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+239-->[com.google.android.gms:play-services-auth:16.0.1] C:\Users\Kush\.gradle\caches\transforms-2\files-2.1\ec217481dfde0ec7eab4e08b650d1c76\jetified-play-services-auth-16.0.1\AndroidManifest.xml:27:13-72
+240        <!--
+241            Service handling Google Sign-In user revocation. For apps that do not integrate with
+242            Google Sign-In, this service will never be started.
+243        -->
+244        <service
+244-->[com.google.android.gms:play-services-auth:16.0.1] C:\Users\Kush\.gradle\caches\transforms-2\files-2.1\ec217481dfde0ec7eab4e08b650d1c76\jetified-play-services-auth-16.0.1\AndroidManifest.xml:33:9-36:110
+245            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+245-->[com.google.android.gms:play-services-auth:16.0.1] C:\Users\Kush\.gradle\caches\transforms-2\files-2.1\ec217481dfde0ec7eab4e08b650d1c76\jetified-play-services-auth-16.0.1\AndroidManifest.xml:34:13-89
+246            android:exported="true"
+246-->[com.google.android.gms:play-services-auth:16.0.1] C:\Users\Kush\.gradle\caches\transforms-2\files-2.1\ec217481dfde0ec7eab4e08b650d1c76\jetified-play-services-auth-16.0.1\AndroidManifest.xml:35:13-36
+247            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION" />
+247-->[com.google.android.gms:play-services-auth:16.0.1] C:\Users\Kush\.gradle\caches\transforms-2\files-2.1\ec217481dfde0ec7eab4e08b650d1c76\jetified-play-services-auth-16.0.1\AndroidManifest.xml:36:13-107
+248
+249        <activity
+249-->[com.google.android.gms:play-services-base:17.6.0] C:\Users\Kush\.gradle\caches\transforms-2\files-2.1\ad8246a62ce2a4b4a3eb8daa2b87ad66\jetified-play-services-base-17.6.0\AndroidManifest.xml:23:9-26:75
+250            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+250-->[com.google.android.gms:play-services-base:17.6.0] C:\Users\Kush\.gradle\caches\transforms-2\files-2.1\ad8246a62ce2a4b4a3eb8daa2b87ad66\jetified-play-services-base-17.6.0\AndroidManifest.xml:24:13-79
+251            android:exported="false"
+251-->[com.google.android.gms:play-services-base:17.6.0] C:\Users\Kush\.gradle\caches\transforms-2\files-2.1\ad8246a62ce2a4b4a3eb8daa2b87ad66\jetified-play-services-base-17.6.0\AndroidManifest.xml:25:13-37
+252            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+252-->[com.google.android.gms:play-services-base:17.6.0] C:\Users\Kush\.gradle\caches\transforms-2\files-2.1\ad8246a62ce2a4b4a3eb8daa2b87ad66\jetified-play-services-base-17.6.0\AndroidManifest.xml:26:13-72
+253
+254        <receiver
+254-->[com.google.android.gms:play-services-measurement:19.0.1] C:\Users\Kush\.gradle\caches\transforms-2\files-2.1\8330784ef1caab2288c9e29b2a5416a8\jetified-play-services-measurement-19.0.1\AndroidManifest.xml:29:9-33:20
+255            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+255-->[com.google.android.gms:play-services-measurement:19.0.1] C:\Users\Kush\.gradle\caches\transforms-2\files-2.1\8330784ef1caab2288c9e29b2a5416a8\jetified-play-services-measurement-19.0.1\AndroidManifest.xml:30:13-85
+256            android:enabled="true"
+256-->[com.google.android.gms:play-services-measurement:19.0.1] C:\Users\Kush\.gradle\caches\transforms-2\files-2.1\8330784ef1caab2288c9e29b2a5416a8\jetified-play-services-measurement-19.0.1\AndroidManifest.xml:31:13-35
+257            android:exported="false" >
+257-->[com.google.android.gms:play-services-measurement:19.0.1] C:\Users\Kush\.gradle\caches\transforms-2\files-2.1\8330784ef1caab2288c9e29b2a5416a8\jetified-play-services-measurement-19.0.1\AndroidManifest.xml:32:13-37
+258        </receiver>
+259
+260        <service
+260-->[com.google.android.gms:play-services-measurement:19.0.1] C:\Users\Kush\.gradle\caches\transforms-2\files-2.1\8330784ef1caab2288c9e29b2a5416a8\jetified-play-services-measurement-19.0.1\AndroidManifest.xml:35:9-38:40
+261            android:name="com.google.android.gms.measurement.AppMeasurementService"
+261-->[com.google.android.gms:play-services-measurement:19.0.1] C:\Users\Kush\.gradle\caches\transforms-2\files-2.1\8330784ef1caab2288c9e29b2a5416a8\jetified-play-services-measurement-19.0.1\AndroidManifest.xml:36:13-84
+262            android:enabled="true"
+262-->[com.google.android.gms:play-services-measurement:19.0.1] C:\Users\Kush\.gradle\caches\transforms-2\files-2.1\8330784ef1caab2288c9e29b2a5416a8\jetified-play-services-measurement-19.0.1\AndroidManifest.xml:37:13-35
+263            android:exported="false" />
+263-->[com.google.android.gms:play-services-measurement:19.0.1] C:\Users\Kush\.gradle\caches\transforms-2\files-2.1\8330784ef1caab2288c9e29b2a5416a8\jetified-play-services-measurement-19.0.1\AndroidManifest.xml:38:13-37
+264        <service
+264-->[com.google.android.gms:play-services-measurement:19.0.1] C:\Users\Kush\.gradle\caches\transforms-2\files-2.1\8330784ef1caab2288c9e29b2a5416a8\jetified-play-services-measurement-19.0.1\AndroidManifest.xml:39:9-43:72
+265            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+265-->[com.google.android.gms:play-services-measurement:19.0.1] C:\Users\Kush\.gradle\caches\transforms-2\files-2.1\8330784ef1caab2288c9e29b2a5416a8\jetified-play-services-measurement-19.0.1\AndroidManifest.xml:40:13-87
+266            android:enabled="true"
+266-->[com.google.android.gms:play-services-measurement:19.0.1] C:\Users\Kush\.gradle\caches\transforms-2\files-2.1\8330784ef1caab2288c9e29b2a5416a8\jetified-play-services-measurement-19.0.1\AndroidManifest.xml:41:13-35
+267            android:exported="false"
+267-->[com.google.android.gms:play-services-measurement:19.0.1] C:\Users\Kush\.gradle\caches\transforms-2\files-2.1\8330784ef1caab2288c9e29b2a5416a8\jetified-play-services-measurement-19.0.1\AndroidManifest.xml:42:13-37
+268            android:permission="android.permission.BIND_JOB_SERVICE" />
+268-->[com.google.android.gms:play-services-measurement:19.0.1] C:\Users\Kush\.gradle\caches\transforms-2\files-2.1\8330784ef1caab2288c9e29b2a5416a8\jetified-play-services-measurement-19.0.1\AndroidManifest.xml:43:13-69
+269
+270        <meta-data
+270-->[com.google.android.gms:play-services-basement:17.6.0] C:\Users\Kush\.gradle\caches\transforms-2\files-2.1\3ebdc953c8b513e716df9ce0bbb4c15f\jetified-play-services-basement-17.6.0\AndroidManifest.xml:23:9-25:69
+271            android:name="com.google.android.gms.version"
+271-->[com.google.android.gms:play-services-basement:17.6.0] C:\Users\Kush\.gradle\caches\transforms-2\files-2.1\3ebdc953c8b513e716df9ce0bbb4c15f\jetified-play-services-basement-17.6.0\AndroidManifest.xml:24:13-58
+272            android:value="@integer/google_play_services_version" />
+272-->[com.google.android.gms:play-services-basement:17.6.0] C:\Users\Kush\.gradle\caches\transforms-2\files-2.1\3ebdc953c8b513e716df9ce0bbb4c15f\jetified-play-services-basement-17.6.0\AndroidManifest.xml:25:13-66
+273    </application>
+274
+275</manifest>
